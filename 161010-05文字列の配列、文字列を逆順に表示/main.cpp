@@ -5,7 +5,7 @@ int main(void)
     int i,l=0;
 
     printf("文字列を入力:");
-    scanf("%s", a);
+    scanf("%s",a);
 
     for (i = 0;a[i];i++)
         l++;
