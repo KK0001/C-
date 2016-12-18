@@ -23,7 +23,7 @@ int main(void){
 
   //文字列を生成
   for(i=0;i<num;i++)
-    *(str+i)='a';
+    *(str+i)=str1[i];
 
   *(str+num)='\0';
   printf("%sを用意しました。\n",str);
