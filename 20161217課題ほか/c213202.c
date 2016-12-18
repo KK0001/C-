@@ -23,9 +23,9 @@ int main(void){
 
   //文字列を生成
   for(i=0;i<num;i++)
-    *(str+1)='a';
+    *(str+i)='a';
 
-  *(str+num)='';
+  *(str+num)='\0';
   printf("%sを用意しました。\n",str);
 
   //free
